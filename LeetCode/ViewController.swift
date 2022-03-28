@@ -11,9 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        test()
     }
 
 
 }
 
+extension ViewController {
+    private func test() {
+        Solution693().test()
+    }
+}

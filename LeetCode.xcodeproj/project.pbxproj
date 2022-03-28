@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E1E12D827F00A88004CB421 /* Q2028.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E12D727F00A88004CB421 /* Q2028.swift */; };
+		8E1E12DA27F15A94004CB421 /* Q693.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E12D927F15A94004CB421 /* Q693.swift */; };
 		8E4F84D627E827540001558A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F84D527E827540001558A /* AppDelegate.swift */; };
 		8E4F84D827E827540001558A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F84D727E827540001558A /* SceneDelegate.swift */; };
 		8E4F84DA27E827540001558A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F84D927E827540001558A /* ViewController.swift */; };
@@ -16,6 +18,9 @@
 		8E4F84ED27E827580001558A /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F84EC27E827580001558A /* LeetCodeTests.swift */; };
 		8E4F84F727E827580001558A /* LeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F84F627E827580001558A /* LeetCodeUITests.swift */; };
 		8E4F84F927E827580001558A /* LeetCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F84F827E827580001558A /* LeetCodeUITestsLaunchTests.swift */; };
+		8E4F850727E828280001558A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F850627E828280001558A /* TreeNode.swift */; };
+		8E4F850A27E87D530001558A /* Q2038.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F850927E87D520001558A /* Q2038.swift */; };
+		8E69AB1527EEA51A002B3C3A /* Q172.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E69AB1427EEA51A002B3C3A /* Q172.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E1E12D727F00A88004CB421 /* Q2028.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2028.swift; sourceTree = "<group>"; };
+		8E1E12D927F15A94004CB421 /* Q693.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q693.swift; sourceTree = "<group>"; };
 		8E4F84D227E827540001558A /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4F84D527E827540001558A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E4F84D727E827540001558A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		8E4F84F227E827580001558A /* LeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4F84F627E827580001558A /* LeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITests.swift; sourceTree = "<group>"; };
 		8E4F84F827E827580001558A /* LeetCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E4F850627E828280001558A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		8E4F850927E87D520001558A /* Q2038.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2038.swift; sourceTree = "<group>"; };
+		8E69AB1427EEA51A002B3C3A /* Q172.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q172.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,8 @@
 		8E4F84D427E827540001558A /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				8E4F850827E87D440001558A /* LC */,
+				8E4F850527E828120001558A /* Basic */,
 				8E4F84D527E827540001558A /* AppDelegate.swift */,
 				8E4F84D727E827540001558A /* SceneDelegate.swift */,
 				8E4F84D927E827540001558A /* ViewController.swift */,
@@ -125,6 +137,25 @@
 				8E4F84F827E827580001558A /* LeetCodeUITestsLaunchTests.swift */,
 			);
 			path = LeetCodeUITests;
+			sourceTree = "<group>";
+		};
+		8E4F850527E828120001558A /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F850627E828280001558A /* TreeNode.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		8E4F850827E87D440001558A /* LC */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F850927E87D520001558A /* Q2038.swift */,
+				8E69AB1427EEA51A002B3C3A /* Q172.swift */,
+				8E1E12D727F00A88004CB421 /* Q2028.swift */,
+				8E1E12D927F15A94004CB421 /* Q693.swift */,
+			);
+			path = LC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1E12DA27F15A94004CB421 /* Q693.swift in Sources */,
+				8E4F850A27E87D530001558A /* Q2038.swift in Sources */,
 				8E4F84DA27E827540001558A /* ViewController.swift in Sources */,
+				8E1E12D827F00A88004CB421 /* Q2028.swift in Sources */,
+				8E69AB1527EEA51A002B3C3A /* Q172.swift in Sources */,
 				8E4F84D627E827540001558A /* AppDelegate.swift in Sources */,
 				8E4F84D827E827540001558A /* SceneDelegate.swift in Sources */,
+				8E4F850727E828280001558A /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -447,6 +483,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +512,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
